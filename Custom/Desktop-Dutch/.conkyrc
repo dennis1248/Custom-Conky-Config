@@ -60,7 +60,8 @@ conky.text = [[
 ${goto 260}${color #000000}${font Conky Icons by Carelli:size=50}${color}${goto 340}${font Conky Icons by Carelli:size=30}${font Radio Space:size=30}${uptime_short}${goto 555}${font Conky Icons by Carelli:size=30}${font Radio Space:size=30}${time %H.%M}${font}
 ${goto 40}${hr 2}
 ${font Conky Icons by Carelli:size=14}${goto 290}${color}${font size=14}${alignr}${distribution} ${kernel}
-${font Ubuntu:Bold:size=9}${goto 40}Naam ${goto 175}ID${goto 225}CPU%${goto 280}MEM%${voffset -7}${goto 400}${font Conky Icons by Carelli:size=14}${font}
+${goto 15}${color #f8df58}${font Conky Icons by Carelli:size=14}${goto 40}${font Radio Space:size=9}Processen${voffset -7}${font Conky Icons by Carelli:size=14}${color}${font size=14}
+${font Ubuntu:Bold:size=9}${goto 40}Naam ${goto 175}ID${goto 225}CPU%${goto 280}MEM%${voffset -7}${font Conky Icons by Carelli:size=14}${font}
 ${goto 40}${top name 1} ${goto 170}${top pid 1}${goto 225}${top cpu 1}${goto 280}${top mem 1}
 ${goto 40}${top name 2} ${goto 170}${top pid 2}${goto 225}${top cpu 2}${goto 280}${top mem 2}
 ${goto 40}${top name 3} ${goto 170}${top pid 3}${goto 225}${top cpu 3}${goto 280}${top mem 3}
@@ -72,7 +73,7 @@ ${goto 40}${top name 8} ${goto 170}${top pid 8}${goto 225}${top cpu 8}${goto 280
 ${goto 40}${top name 9} ${goto 170}${top pid 9}${goto 225}${top cpu 9}${goto 280}${top mem 9}
 ${goto 40}${top name 10} ${goto 170}${top pid 10}${goto 225}${top cpu 10}${goto 280}${top mem 10}
 
-${goto 15}${color #f8df58}${font Conky Icons by Carelli:size=14}${goto 40}${font Radio Space:size=9}LAN${voffset -7}${goto 265}${font Conky Icons by Carelli:size=14}${goto 290}${color}${font size=14}
+${goto 15}${color #f8df58}${font Conky Icons by Carelli:size=14}${goto 40}${font Radio Space:size=9}LAN${voffset -7}${font Conky Icons by Carelli:size=14}${color}${font size=14}
 ${goto 15}${font Conky Icons by Carelli:size=14}${font}${goto 40}Upload: ${upspeed eno1}${goto 180}${upspeedgraph  eno1 20,80 DD3A21 DD3A21}${font}${color}
 ${goto 40}Download: ${downspeed eno1}${goto 180}${downspeedgraph  eno1 20,80 DD3A21 DD3A21}
 ${goto 40}${font}IP: ${addrs eno1}
